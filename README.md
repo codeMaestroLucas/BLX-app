@@ -11,7 +11,7 @@
 ![img](./imgs/structure.png)
 1. **Infra** -> **SQLAlchemy** : contains the base model for the database usign the `sqlalchemy` import ;
 
-    <span style="color:cyan">*The SQLAlchemy is an ORM - Object Relational Mapping - a tool to connect to a database. It's used to access the DB ando do the operations SQL.*</span>
+    <span style="color:cyan">*The SQLAlchemy is an ORM - Object Relational Mapping - a tool to connect to a database. It's used to access the DB and do the operations SQL.*</span>
     
     a. **Config** : the file contains the configuration for the creation, start of <span style="color:red">**every** database in the app</span>. Normally this file is  allways the same - *just paste and copy* ;
 
