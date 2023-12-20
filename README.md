@@ -4,10 +4,12 @@
     - [](#)
 
 - [Frontend](#frontend)
-    -
+    - [](#)
 - [](#)
+
 # Backend
 ## Structure of Files
+
 ![img](./imgs/structure.png)
 1. **Infra** -> **SQLAlchemy** : contains the base model for the database usign the `sqlalchemy` import ;
 
@@ -32,23 +34,6 @@
     Start from the basic functionalitys of the repository class
 
     <span style="color:purple">The Repository class are used to convert the Model objects to an Database model. Stablish a conection with de Database.</span>
-
-    ```
-    from sqlalchemy.orm import Session
-
-    class Product_Repo():
-        def __init__(self, db : Session) -> None:
-            pass
-        
-        def show_products(self):
-            ...
-        
-        def get_by_id(self, id):
-            ...
-        
-        def remove_product(self, id):
-            ...
-    ```
 
     ```
     from sqlalchemy.orm import Session

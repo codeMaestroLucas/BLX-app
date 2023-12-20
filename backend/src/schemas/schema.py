@@ -18,6 +18,9 @@ class Product(BaseModel):
     price : float
     available : bool = False
     
+    class Config():
+        orm_mode = True
+    
     
     #? Convert a Schema (JSON) to Model (DB)
     class Config():
@@ -31,5 +34,8 @@ class Order(BaseModel):
     to_deliver : bool = True
     address : str
     comments : Optional[str] = "No comments."
+        
+    class Config():
+        orm_mode = True
     
     
